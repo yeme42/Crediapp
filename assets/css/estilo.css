@@ -29,3 +29,9 @@ body {
 h2{
     color: fuchsia;
 }
+.manito{
+    cursor: pointer;
+}
+.fondo-c{
+    background: radial-gradient(circle, rgba(142,251,63,1) 0%, rgba(70,252,213,1) 100%);
+}

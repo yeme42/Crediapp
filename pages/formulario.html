@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="fondo-b">
   <header>
@@ -23,7 +24,7 @@
                       <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Cliente</a>
+                    <a class="nav-link" aria-current="page" href="Cliente.html">Cliente</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Pagos</a>
@@ -57,16 +58,16 @@
     <div class="container  my-4">
       <form id="form" class="row">
         <div class="col-6">
-          <input type="text" name="nombre" placeholder=" Nombre " class="form-control rounded-pill opacity-25 border-0 col-4" id="nombre">
+          <input type="text" id="nombre" name="nombre" placeholder=" Nombre " class="form-control rounded-pill opacity-25 border-0 col-4" id="nombre">
         </div>
         <div class="col-6 ">
-        <input type="text" name="apellido" placeholder=" Apellido" class="form-control rounded-pill opacity-25 border-0 col-4" id="apellido">
+        <input type="text" id="apellido" name="apellido" placeholder=" Apellido" class="form-control rounded-pill opacity-25 border-0 col-4" id="apellido">
         </div>
         <div class="col-6">
-          <input type="number" name="numero" placeholder=" Telefono" class="form-control col-4 mt-3 rounded-pill opacity-25 border-0" id="telefono">
+          <input type="number" id="numero" name="numero" placeholder=" Telefono" class="form-control col-4 mt-3 rounded-pill opacity-25 border-0" id="telefono">
         </div>
         <div class="col-6">
-          <input type="email" name="correo" placeholder=" correo@correo.com" class="form-control col-4 mt-3 rounded-pill opacity-25 border-0" id="correo" aria-describedby="emailHelp">
+          <input type="email" id="correo" name="correo" placeholder=" correo@correo.com" class="form-control col-4 mt-3 rounded-pill opacity-25 border-0" id="correo" aria-describedby="emailHelp">
         </div>
         <div class="col-6">
           <input style="height: 100px;" name="comentario" type="text" placeholder=" Como podemos ayudarte" class="form-control col-4 mt-3 rounded-pill opacity-25 border-0" id="comentario" aria-describedby="emailHelp">
@@ -91,6 +92,7 @@
           <th scope="col">Telefono</th>
           <th scope="col">Correo</th>
           <th scope="col">Comentario</th>
+          <th scope="col">Action</th>
         </tr>
       </thead>
       <tbody id="contenido">

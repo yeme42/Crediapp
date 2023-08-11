@@ -1,53 +1,23 @@
 {
   "posts": [
     {
-      "nombre": "jose",
-      "apellido": "hernandez",
-      "numero": "546456456",
-      "correo": "yerindd@gmail.com",
-      "comentario": "esto es una prueba",
+      "nombre": "564",
+      "apellido": "56546",
+      "numero": "456",
+      "correo": "464564",
+      "comentario": "4564",
       "id": 2
     },
     {
-      "nombre": "javier",
-      "apellido": "roraimo",
-      "numero": "151515151",
-      "correo": "javier@gmail.com",
-      "comentario": "hola mundo",
-      "id": 3
-    },
-    {
-      "nombre": "yerinson",
-      "apellido": "muentes",
-      "numero": "975680222",
-      "correo": "yerindd@gmail.com",
-      "comentario": "comentario final",
-      "id": 5
-    },
-    {
-      "nombre": "jose",
-      "apellido": "roraimo",
-      "numero": "656565",
-      "correo": "javier@gmail.com",
-      "comentario": "hola mundo",
-      "id": 6
-    },
-    {
-      "nombre": "jose",
-      "apellido": "roraimo",
-      "numero": "555555555",
-      "correo": "yerindd@gmail.com",
-      "comentario": "hola mundo",
-      "id": 7
+      "nombre": "6456",
+      "apellido": "456",
+      "numero": "465",
+      "correo": "456",
+      "comentario": "456",
+      "id": 4
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
